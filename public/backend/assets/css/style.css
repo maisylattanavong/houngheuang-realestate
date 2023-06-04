@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@500&display=swap");
+
+* {
+    font-family: "Noto Sans Lao", "sans-serif";
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Noto Sans Lao", "sans-serif";
+}
+
+#sidebar-menu ul li {
+    font-family: "Noto Sans Lao", "sans-serif" !important;
+}
+
+#sidebar-menu ul li a {
+    font-family: "Noto Sans Lao", "sans-serif" !important;
+}
+
+.active1 {
+    width: 56px;
+    height: 30px;
+    padding-left: 22px;
+    line-height: 16px;
+}
+
+.active1.btn {
+    background-image: url("/backend/assets/images/buttons/on_button.png");
+    background-repeat: no-repeat;
+}
+.active1.btn:hover {
+    background-image: url("/backend/assets/images/buttons/off_button.png");
+}
+
+.inactive2 {
+    width: 56px;
+    height: 30px;
+    padding-left: 22px;
+    line-height: 16px;
+}
+
+.inactive2.btn {
+    background-image: url("/backend/assets/images/buttons/off_button.png");
+    background-repeat: no-repeat;
+}
+.inactive2.btn:hover {
+    background-image: url("/backend/assets/images/buttons/on_button.png");
+}

@@ -1,0 +1,1 @@
+<img src="{{asset('logo/book.png')}}" width="70px">
