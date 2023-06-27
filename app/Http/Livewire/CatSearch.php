@@ -81,9 +81,8 @@ class CatSearch extends Component
                 } else {
                 }
             })
-
+            ->orderBy('created_at', $this->orderBy)
             ->orderBy('price',$this->orderByPrice)
-            ->orderBy('id', $this->orderBy)
             ->paginate($this->perPage);
 
 

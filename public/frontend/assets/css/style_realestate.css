@@ -1,11 +1,19 @@
-@import url('https://fonts.cdnfonts.com/css/phetsarath');
+/* @import url('https://fonts.cdnfonts.com/css/phetsarath'); */
 
-@font-face {
-    font-family: 'phetsarath';
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@500&display=swap");
+
+* {
+    font-family: "Noto Sans Lao", "sans-serif";
+    margin: 0;
+    padding: 0;
+}
+
+/* @font-face {
+    font-family: 'Noto Sans Lao';
     font-style: normal;
     font-weight: 400;
-    src: local('Phetsarath'), url(https://fonts.cdnfonts.com/s/15721/Phetsarath-Regular.woff) format('woff')
-}
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@500&display=swap');
+} */
 
 
 /* @font-face {
@@ -23,6 +31,7 @@
 body {
     color: #555;
     font: normal 13px/22px Arial;
+    /* font-family: "Noto Sans Lao", "sans-serif" !important; */
     background: url(../images/bgmain.png) #eee;
 }
 
@@ -32,7 +41,7 @@ h3,
 h4,
 h5 {
     font-weight: normal;
-    font-family: Phetsarath_OT;
+    font-family: 'Noto Sans Lao';
     margin: 0;
     padding: 0;
     color: #000;
@@ -144,7 +153,7 @@ table {
 
 .btn {
     border-radius: 5px;
-    font-family: din;
+    font-family: 'Noto Sans Lao';
     outline: none;
 }
 
@@ -193,7 +202,7 @@ table {
 
 .header ul li a {
     font-size: 19px;
-    font-family: din;
+    font-family: 'Noto Sans Lao';
     text-transform: uppercase;
     color: goldenrod;
 }
@@ -214,7 +223,7 @@ table {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 15px;
-    font-family: din;
+    font-family: 'Noto Sans Lao';
     text-transform: uppercase;
     color: goldenrod;
     font-weight: bold;
@@ -277,7 +286,7 @@ table {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 5px 0;
-    font-family: din;
+    font-family: 'Noto Sans Lao';
 }
 
 .listing-detail {

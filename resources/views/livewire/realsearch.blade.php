@@ -80,8 +80,8 @@
                                     class="img-responsive" alt="properties" style="height:170px">
                             </div>
                             <h4><a href="">{{ $item->title }}</a></h4>
-                            <p class="price">@lang('frontend.price') $ {{ $item->price }}</p>
-                            <p class="price">@lang('frontend.area') {{ $item->area }} m&sup2</p>
+                            <p class="price">@lang('frontend.price'): $ {{ $item->price }}</p>
+                            <p class="price">@lang('frontend.area'): {{ $item->area }} m&sup2</p>
                             <button class="btn btn-primary"
                                 wire:click="propertyDetail({{ $item->id }})">@lang('frontend.view_details')</button>
                         </div>
